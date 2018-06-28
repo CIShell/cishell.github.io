@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url(../images/BG.jpg);
+	background-repeat: repeat;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 85%;
+	color: #333333;
+}
+
+#footer {
+	color: #999999;
+	padding: 15px;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+#container {
+	position: relative;
+	width: 799px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	top: 0px;
+	background: #FFF
+}
+
+.top {
+	background-image: url(../images/sci_02.jpg);
+	position: absolute;
+	height: 152px;
+	width: 799px;
+	left: 0px;
+	top: 0px;
+}
+
+.content {
+	background-image: url(../images/contentBG_04.jpg);
+	background-repeat: repeat-y;
+	position: absolute;
+	width: 799px;
+	left: 0px;
+	top: 152px;
+}
+
+.title {
+	font-size: 120%;
+	color: #333;
+	font-weight: bold;
+}
+
+.titlegreen {
+	font-size: 120%;
+	color: #5d8a1d;
+	font-weight: bold;
+}
+
+a img {
+	border-style: none;
+}
+
+a:link {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #4f88b1;
+}
+
+a:hover {
+	color: #333333;
+}
+
+a:active {
+	color: #333333;
+}
+
+a:visited {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #4f88b1;
+}
+
+img.gallery {
+	padding: 3px;
+	border: 1px solid #999;
+}
+
+.download {
+	position: relative;
+	top: 10px;
+}
+
+div.downloadbutton {
+	position: relative;
+	height: 38px;
+	width: 314px;
+	left: 0px;
+	top: 10px;
+	background-image: url(../images/downloadbutton_01.jpg);
+}
+
+div.downloadbutton2 {
+	position: relative;
+	height: 61px;
+	width: 180px;
+	left: 0px;
+	float: left;
+	top: 10px;
+	background-image: url(../images/downloadbutton_02.jpg);
+}
+
+div.downloadbutton3 {
+	position: relative;
+	height: 61px;
+	width: 134px;
+	left: 0px;
+	float: right;
+	top: 10px;
+}
+
+.floatright {
+	float: right;
+	padding-left: 20px;
+}
